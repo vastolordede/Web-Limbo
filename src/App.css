@@ -1,0 +1,27 @@
+.head{
+    font-size: 24px;
+    color: #fff;
+}
+.littlehead{
+    font-size: 24px;
+    color: #fff;
+}
+.psize{
+    font-size: 14px;
+    color: #fff;
+}
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+    background-image: url(./Bloodborne-6.jpg);
+    background-color: #fff;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.box{
+    margin: 60px;
+    height: auto;
+    background:rgba(0, 0, 0, 0.9);
+}
