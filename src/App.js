@@ -4,12 +4,12 @@ function App() {
   return (
     <div>
         <div className="box">
-      <p className="psize">Lore of Bloodborne as interpreted by the community. This page houses facts and interpretations relating to the game, but you may also visit the newly launched<br></br> Bloodborne Lore Forums. You can also find pre-release information from trailers and interviews from before the game was launched.<br></br></p>
-      <span className="psize">See Lore Notes for transcriptions of in-game notes scattered across its areas.<br></br>
+      <p className="title">Lore of Bloodborne as interpreted by the community. This page houses facts and interpretations relating to the game, but you may also visit the newly launched<br></br> Bloodborne Lore Forums. You can also find pre-release information from trailers and interviews from before the game was launched.<br></br></p>
+      <p className="title">See Lore Notes for transcriptions of in-game notes scattered across its areas.<br></br>
             See Lore glossary for a recopilation of all the relevant in-game facts associated to each lore concept.<br></br>
             See Theoretical - Player thoughts and research concerning the Bloodborne lore.<br></br>
             Warning: Massive spoilers ahead, don't keep reading if you want to deduce things by yourself or haven't beaten the game yet.<br></br>
-            Everything that is speculation will be tagged under theory or written with words that express uncertainty.</span>
+            Everything that is speculation will be tagged under theory or written with words that express uncertainty.</p>
         <h2 className="head">
         I. MAIN STORY CONCEPTS
         </h2>

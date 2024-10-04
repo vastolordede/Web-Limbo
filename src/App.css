@@ -1,27 +1,37 @@
 .head{
     font-size: 24px;
     color: #fff;
+    margin-left: 20px;
+    text-align: center;
 }
 .littlehead{
     font-size: 24px;
     color: #fff;
+    margin-left: 20px;
 }
 .psize{
     font-size: 14px;
     color: #fff;
+    margin-left: 40px;
+}
+.title{
+    font-size: 14px;
+    color: #fff;
+    margin-left: 60px;
 }
 body{
     margin: 0;
     padding: 0;
     max-width: 100%;
     height: auto;
-    background-image: url(./Bloodborne-6.jpg);
+    background-image: url(./bloodborne-video-games-lady-maria-wallpaper-preview.jpg);
     background-color: #fff;
+    background-size:cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 .box{
     margin: 60px;
     height: auto;
-    background:rgba(0, 0, 0, 0.9);
+    background:rgba(0, 0, 0, 0.8);
 }
