@@ -1,5 +1,6 @@
 import React from "react";
 import './App.css';
+import img from './30-308489_bloodborne-hunters-mark-tattoo-png-download-hunters-mark.png'
 function App() {
   return (
     <div>
@@ -9,80 +10,96 @@ function App() {
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
               <div className="dropdown-menu navbg" aria-labelledby="navbarDropdown">
-              <a className="dropdown-item font " href="#">Wiki Home</a>
-              <a className="dropdown-item font" href="#">Community & Social</a>
-              <a className="dropdown-item font" href="#">Wiki Forums</a>
-              <a className="dropdown-item font" href="#">Wiki To-Do</a>
+              <a className="dropdown-item font  " href="#"><img src={img} className="imgnavsize"></img>Wiki Home</a>
+              <a className="dropdown-item font " href="#"><img src={img} className="imgnavsize"></img>Community & Social</a>
+                <a className="dropdown-item font navcontentmargin subsize" href="#">Bloodborne Forums</a>
+                <a className="dropdown-item font navcontentmargin subsize" href="#">Bloodborne Chatroom</a>
+                <a className="dropdown-item font navcontentmargin subsize" href="#">Player IDs</a>
+                <a className="dropdown-item font navcontentmargin subsize" href="#">Community Events</a>
+              <a className="dropdown-item font " href="#"><img src={img} className="imgnavsize"></img>Wiki Forums</a>
+              <a className="dropdown-item font " href="#"><img src={img} className="imgnavsize"></img>Wiki To-Do</a>
               </div>
           </li>
           {/*General */}
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">General</a>
               <div className="dropdown-menu navbg" aria-labelledby="navbarDropdown">
-              <a className="dropdown-item font" href="#">General Information</a>
-              <a className="dropdown-item font" href="#">DLC & Expansion</a>
-              <a className="dropdown-item font" href="#">About Bloodborne</a>
-              <a className="dropdown-item font" href="#">Online Play</a>
+              <a className="dropdown-item font " href="#"><img src={img} className="imgnavsize"></img>General Information</a>
+              <a className="dropdown-item font " href="#"><img src={img} className="imgnavsize"></img>DLC & Expansion</a>
+                <a className="dropdown-item font navcontentmargin subsize" href="#">The Old Hunters Information</a>
+              <a className="dropdown-item font " href="#"><img src={img} className="imgnavsize"></img>About Bloodborne</a>
+                <a className="dropdown-item font navcontentmargin subsize" href="#">Patch Notes</a>
+                <a className="dropdown-item font navcontentmargin subsize" href="#">Tutorials</a>
+              <a className="dropdown-item font " href="#"><img src={img} className="imgnavsize"></img>Online Play</a>
               </div>
           </li>
           {/*Character*/}
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Character</a>
               <div className="dropdown-menu navbg " aria-labelledby="navbarDropdown">
-              <a className="dropdown-item font" href="#">Character Information</a>
-              <a className="dropdown-item font" href="#">Classes (Origins)</a>
-              <a className="dropdown-item font" href="#">Calculators</a>
-              <a className="dropdown-item font" href="#">Stats</a>
+              <a className="dropdown-item font " href="#"><img src={img} className="imgnavsize"></img>Character Information</a>
+              <a className="dropdown-item font " href="#"><img src={img} className="imgnavsize"></img>Classes (Origins)</a>
+              <a className="dropdown-item font " href="#"><img src={img} className="imgnavsize"></img>Calculators</a>
+              <a className="dropdown-item font " href="#"><img src={img} className="imgnavsize"></img>Stats</a>
+                <a className="dropdown-item font navcontentmargin subsize" href="#">Status Effects</a>
+                <a className="dropdown-item font navcontentmargin subsize" href="#">Buffs</a>
               </div>
           </li>
           {/*Equipment*/}
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Equipment</a>
               <div className="dropdown-menu navbg" aria-labelledby="navbarDropdown">
-              <a className="dropdown-item font" href="#">Equipments</a>
-              <a className="dropdown-item font" href="#">Attire (Armors)</a>
-              <a className="dropdown-item font" href="#">Weapons</a>
-              <a className="dropdown-item font" href="#">FireArms</a>
+              <a className="dropdown-item font " href="#"><img src={img} className="imgnavsize"></img>Equipments</a>
+              <a className="dropdown-item font " href="#"><img src={img} className="imgnavsize"></img>Attire (Armors)</a>
+              <a className="dropdown-item font " href="#"><img src={img} className="imgnavsize"></img>Weapons</a>
+              <a className="dropdown-item font " href="#"><img src={img} className="imgnavsize"></img>FireArms</a>
               </div>
           </li>
           {/*World*/}
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">World</a>
               <div className="dropdown-menu navbg" aria-labelledby="navbarDropdown">
-              <a className="dropdown-item font" href="#">World Information</a>
-              <a className="dropdown-item font" href="#">Locations Overview</a>
-              <a className="dropdown-item font" href="#">Covenants</a>
-              <a className="dropdown-item font" href="#">Chalice Dungeon</a>
+              <a className="dropdown-item font " href="#"><img src={img} className="imgnavsize"></img>World Information</a>
+              <a className="dropdown-item font " href="#"><img src={img} className="imgnavsize"></img>Locations Overview</a>
+                <a className="dropdown-item font navcontentmargin subsize" href="#">Maps</a>
+                <a className="dropdown-item font navcontentmargin subsize" href="#">Secrecs</a>
+              <a className="dropdown-item font " href="#"><img src={img} className="imgnavsize"></img>Covenants</a>
+              <a className="dropdown-item font " href="#"><img src={img} className="imgnavsize"></img>Chalice Dungeon</a>
               </div>
           </li>
           {/*Guilde*/}
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Guilde</a>
               <div className="dropdown-menu navbg" aria-labelledby="navbarDropdown">
-              <a className="dropdown-item font" href="#">Guildes Walkthoughs</a>
-              <a className="dropdown-item font" href="#">Chalice Dungeon</a>
-              <a className="dropdown-item font" href="#">NewPlayer Helps</a>
-              <a className="dropdown-item font" href="#">Walkthoughs</a>
+              <a className="dropdown-item font " href="#"><img src={img} className="imgnavsize"></img>Guildes Walkthoughs</a>
+              <a className="dropdown-item font " href="#"><img src={img} className="imgnavsize"></img>Chalice Dungeon</a>
+              <a className="dropdown-item font " href="#"><img src={img} className="imgnavsize"></img>NewPlayer Helps</a>
+              <a className="dropdown-item font " href="#"><img src={img} className="imgnavsize"></img>Walkthoughs</a>
               </div>
           </li>
           {/*Tools*/}
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tools</a>
               <div className="dropdown-menu navbg" aria-labelledby="navbarDropdown">
-              <a className="dropdown-item font" href="#">Tools & Calculators</a>
-              <a className="dropdown-item font" href="#">Summon Range Calculator</a>
-              <a className="dropdown-item font" href="#">Build Calculator</a>
-              <a className="dropdown-item font " href="#">Weapon AR & Scaling Calculator</a>
+              <a className="dropdown-item font " href="#"><img src={img} className="imgnavsize"></img>Tools & Calculators</a>
+              <a className="dropdown-item font " href="#"><img src={img} className="imgnavsize"></img>Summon Range Calculator</a>
+              <a className="dropdown-item font " href="#"><img src={img} className="imgnavsize"></img>Build Calculator</a>
+              <a className="dropdown-item font  " href="#"><img src={img} className="imgnavsize"></img>Weapon AR & Scaling Calculator</a>
               </div>
           </li>
         </ul>
       </nav>
-      <div>
         <div className="box">
+          <h1 className="">
+            <a className="headno-underline font head" href="# ">Lore | Bloodborne</a>
+            <hr className="headline"></hr>
+            <hr className="headline2"></hr>
+          </h1>
       <p className="title atextcolor head-margin ">Lore of Bloodborne as interpreted by the community. This page houses facts and interpretations relating to the game, but you may also visit the newly launched<br></br> Bloodborne Lore Forums. You can also find pre-release information from trailers and interviews from before the game was launched.<br></br></p>
-      <p className="title atextcolor headnote"><li>See Lore Notes for transcriptions of in-game notes scattered across its areas.<br></br></li>
-            <li>See Lore glossary for a recopilation of all the relevant in-game facts associated to each lore concept.<br></br></li> 
-            <li>See Theoretical - Player thoughts and research concerning the Bloodborne lore.<br></br></li>
+      <p className="title atextcolor headnote">
+            <li>See <a href="#" className="no-underline">Lore Notes</a> for transcriptions of in-game notes scattered across its areas.<br></br></li>
+            <li>See <a href="#" className="no-underline">Lore glossary</a> for a recopilation of all the relevant in-game facts associated to each lore concept.<br></br></li> 
+            <li>See <a href="#" className="no-underline">Theoretical</a> - Player thoughts and research concerning the Bloodborne lore.<br></br></li>
             <li>Warning: Massive spoilers ahead, don't keep reading if you want to deduce things by yourself or haven't beaten the game yet.<br></br></li>
             <li>Everything that is speculation will be tagged under theory or written with words that express uncertainty.</li></p>
         <h2 className="head">
@@ -121,15 +138,15 @@ function App() {
             <h3 className="littlehead">
             The Scourge of the Beast
               <p className="psize atextcolor tmargin">
-              The most common form of the blood sickness appears to be lycanthropy: Humans slowly turning into wolves. Those in the early stages of the sickness have lengthened canine teeth and grow more hair. As they progress, their arms and legs lengthen and the spine hunches over and the face begins to elongate. Eventually, they grow fur and their body finishes the change into a Scourge Beast. Along with the physical transformation comes a mental degradation: At first the victim assumes all people they don't know are hostile and they'll attack on sight. As the alterations progress, the victim becomes more and more savage and hostile, until it can only stand to be around others exactly like it as "regular" humans appear to be beasts through their own blood-addled eyes. Sometimes individuals react strangely to the blood; some become unique beasts, and it's rumored that infected Clerics of the Healing Church become the largest of the monsters when they succumbed to the madness. (As seen in Laurence, Ludwig, the Vicar Amelia, etc.)
+              The most common form of the blood sickness appears to be lycanthropy: Humans slowly turning into wolves. Those in the early stages of the sickness have lengthened canine teeth and grow more hair. As they progress, their arms and legs lengthen and the spine hunches over and the face begins to elongate. Eventually, they grow fur and their body finishes the change into a <a href="#" className="no-underline">Scourge Beast</a>. Along with the physical transformation comes a mental degradation: At first the victim assumes all people they don't know are hostile and they'll attack on sight. As the alterations progress, the victim becomes more and more savage and hostile, until it can only stand to be around others exactly like it as "regular" humans appear to be beasts through their own blood-addled eyes. Sometimes individuals react strangely to the blood; some become unique beasts, and it's rumored that infected Clerics of the Healing Church become the largest of the monsters when they succumbed to the madness. (As seen in Laurence, Ludwig, the Vicar Amelia, etc.)
               The blood sickness seems to be endemic to Yharnam, requiring periodic hunts for those very far gone. The hunters are both respected and feared: They bring down the worst of the beasts, but are at risk of contamination themselves.
               </p>
             </h3>
             <h3 className="littlehead">
             Old Yharnam, Ashen Blood, and The Powder Kegs  
               <p className="psize atextcolor tmargin">
-              Eventually, Old Yharnam was founded (obviously just “Yharnam” at the time), but it was brought low by a strange (the text says “baffling”) illness known as Ashen Blood, which was a worse form of slow/fast poison. The antidote description cites it as being a more severe case, and in the case of Ashen Blood, the antidotes only provided temporary relief. Eventually, the disease (likely spread due to blood ministrations) took over, and those infected turned into beasts. This is why the beasts in Old Yharnam are poisonous, particularly the red-eyed werewolf near the boss, and why the Blood-Starved Beast is coated with poison. After the fall of Old Yharnam, it was closed up, and Central Yharnam was built, along with the Grand Cathedral. This is perhaps the first instance of “hunters” as we know them now being formed.
-              The Powder Kegs were a group of hunters that tried to make explosive weapons, to varying degrees of success. A few prided creations of the Powdered Kegs are the Stake Driver, the Rifle Spear, and the Cannon. However, due to differences in designs, they were banned from the Workshop, becoming known as Workshop Heretics 
+              Eventually, <a href="#" className="no-underline">Old Yharnam</a> was founded (obviously just “Yharnam” at the time), but it was brought low by a strange (the text says “baffling”) illness known as Ashen Blood, which was a worse form of slow/fast poison. The antidote description cites it as being a more severe case, and in the case of Ashen Blood, the antidotes only provided temporary relief. Eventually, the disease (likely spread due to blood ministrations) took over, and those infected turned into beasts. This is why the <a href="#" className="no-underline">beasts</a> in Old Yharnam are poisonous, particularly the red-eyed werewolf near the boss, and why the <a href="#" className="no-underline">Blood-Starved Beast</a> is coated with poison. After the fall of Old Yharnam, it was closed up, and Central Yharnam was built, along with the Grand Cathedral. This is perhaps the first instance of “hunters” as we know them now being formed.
+              The Powder Kegs were a group of hunters that tried to make explosive weapons, to varying degrees of success. A few prided creations of the Powdered Kegs are the <a href="#" className="no-underline">Stake Driver</a>, <a href="#" className="no-underline">the Rifle Spear</a>, and the <a href="#" className="no-underline">Cannon</a>. However, due to differences in designs, they were banned from the Workshop, becoming known as Workshop Heretics 
               </p>
             </h3>
             <h3 className="littlehead">
@@ -145,7 +162,7 @@ function App() {
             <h3 className="littlehead">
             The Choir, The Cosmos and Ebrietas
               <p className="psize atextcolor tmargin">
-              The leaders of the healing church, the Choir differentiate themselves from the rest of the members of the church as they received teachings directly from Ebrietas. Ebrietas, daughter of the cosmos  is a celestial being who emerged from the depth of the Old Labyrinth and acted as a source of knowledge to the healing church with seemingly no ill-will thus furthering the notion that the Great Ones are sympathetic to humans. Not only did Ebrietas grant members of the Choir profound knowledge, but she also further convinced them that they could commune with the Great Ones and learn the Eldritch Truth. They believed they could ascend to the Cosmos (or at least make contact with it), and it came in a sudden and unexpected realization that perhaps while their feet were rooted to the ground, the cosmos was not immeasurably far away, but right above their heads. Together with Ebrietas, the Choir worked tirelessly to understand the Great One’s Truth.
+              The leaders of the healing church, the Choir differentiate themselves from the rest of the members of the church as they received teachings directly from Ebrietas. <a href="#" className="no-underline">Ebrietas, daughter of the cosmos</a>  is a celestial being who emerged from the depth of the Old Labyrinth and acted as a source of knowledge to the healing church with seemingly no ill-will thus furthering the notion that the Great Ones are sympathetic to humans. Not only did Ebrietas grant members of the Choir profound knowledge, but she also further convinced them that they could commune with the Great Ones and learn the Eldritch Truth. They believed they could ascend to the Cosmos (or at least make contact with it), and it came in a sudden and unexpected realization that perhaps while their feet were rooted to the ground, the cosmos was not immeasurably far away, but right above their heads. Together with Ebrietas, the Choir worked tirelessly to understand the Great One’s Truth.
               </p>
             </h3>
             <h3 className="littlehead">
@@ -153,7 +170,7 @@ function App() {
               <p className="psize atextcolor tmargin">
               Members of the School of Mensis desperately seek communion with the Great Ones, to the point of near (if not) insanity. Typically found wearing Mensis cages, a follower of the School of Mensis could be distinguished from a normal person from a mile away. But they certainly don't care about other humans' opinions as much as they do the Great Ones'.
               Despite sharing the same goal with the Healing Church, the School of Mensis and the Healing Church do not seem to get along - this is indicated by the corpse of a Choir member locked away in the Unseen Village, which happens to be founded and controlled by the School of Mensis.
-              The founder of the School of Mensis, Micolash  seems to have telepathic powers, being able to plant nightmares and illusions into the minds of his victims. This might indicate the School of Mensis having foul intent if they succeed in communicating with the Great Ones. They may have turned the knowledge and power they obtained onto the people, which would explain the tension between them and the Healing Church.
+              The founder of the School of Mensis, <a href="#" className="no-underline">Micolash</a>  seems to have telepathic powers, being able to plant nightmares and illusions into the minds of his victims. This might indicate the School of Mensis having foul intent if they succeed in communicating with the Great Ones. They may have turned the knowledge and power they obtained onto the people, which would explain the tension between them and the Healing Church.
               The pertinent Umbilical Cord for the School of Mensis' description reads as follows after obtaining it from Murgo's Wet Nurse in the Nightmare: "Every Great One loses its child, and then yearns for a surrogate. This Cord granted Mensis audience with Mergo, but resulted in the stillbirth of their brains." When Micolash and his ilk used this cord to commune with The Infant Great One, they discovered that the power was too much and it killed the whole School of Mensis, locking the survivors in the Nightmare Realm that Micolash controls and driving them all insane. Whether or not this was intended by Mergo is up for debate
               </p>
             </h3>
@@ -183,8 +200,7 @@ function App() {
             </h3>
           </div>
         </div>
-      </div> 
-    </div>       
+      </div>       
   );
 }
 

@@ -10,7 +10,7 @@
     font-size: 30px;
     font-family: 'custom-font';
     color: #fff;
-    margin-left: 20px;
+    margin-left: 25px;
     text-align: center;
 }
 .littlehead{
@@ -25,6 +25,9 @@
     color: #fff;
     margin-left: 0px;
     margin-right: 25px;
+}
+.subsize{
+    font-size: 12.6px;
 }
 .title{
     font-size: 14px;
@@ -67,11 +70,19 @@ body{
 .atextcolor{
     color: #B4B2B0;
 }
+.imgnavsize{
+    width: 25px;
+    height: auto;
+    margin-right: 13px;
+}
 .navbar{
     font-size: 15.2px;
 }
 .nav-item{
     margin: 6px;
+}
+.navcontentmargin{
+    margin-left: 30px;
 }
 .dropdown-menu.navbg{
     background-color: #ffffff;
@@ -84,6 +95,24 @@ body{
 .head-margin{
     margin-top: 20px;
 }
+.headline{
+    border: none; 
+    height: 3px;
+    background-color:  #ffffff;
+    width: 96%; 
+    margin: 0 auto;
+    opacity: 1;
+}
+.headline2{
+    border: none; 
+    height: 3px;
+    background-color: #AB966F;
+    width: 110px; 
+    margin-top: -3px;
+    margin-left: 28px;
+    opacity: 1;
+}
+
 .margin{
     margin-bottom: 20px;
     margin-top: 15px;
@@ -102,6 +131,22 @@ body{
     align-items: center;
     width: 100%;
     opacity: 1;
+}
+.headno-underline {
+    text-decoration: none;
+    color: #ffffff;
+}
+.headno-underline:hover {
+    color:  #AB966F;
+    text-decoration: none;
+}
+.no-underline {
+    text-decoration: none;
+    color:#AB966F;
+}
+.no-underline:hover {
+    text-decoration: underline;
+    color:#AB966F;
 }
 li::marker{
 }
