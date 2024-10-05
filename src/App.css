@@ -4,7 +4,7 @@
 }
 .font{
     font-family: 'custom-font';
-    
+
 }
 .head{
     font-size: 30px;
@@ -43,7 +43,9 @@ body{
     background-repeat: no-repeat;
 }
 .box{
+    position: relative;
     margin: 60px;
+    margin-top: 120px;
     height: auto;
     background:rgba(0, 0, 0, 0.8);
 }
@@ -60,6 +62,7 @@ body{
 .custom-navbar{
     background-color:#2e2e2e;
     max-height: 60px;
+    position: relative;
 }
 .atextcolor{
     color: #B4B2B0;
@@ -73,12 +76,32 @@ body{
 .dropdown-menu.navbg{
     background-color: #ffffff;
     border-radius: 0;
+    margin-top: 10px;
 }
 .headnote{
     margin-left: 110px;
 }
+.head-margin{
+    margin-top: 20px;
+}
 .margin{
     margin-bottom: 20px;
     margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 30px;
 }
-
+.tmargin{
+    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-left: 0px;
+}
+.line{
+    border: none; 
+    height: 3px;
+    background-color:  #AB966F;
+    align-items: center;
+    width: 100%;
+    opacity: 1;
+}
+li::marker{
+}
