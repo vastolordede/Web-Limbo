@@ -1,9 +1,12 @@
 import React from "react";
 import './App.css';
-import img from './30-308489_bloodborne-hunters-mark-tattoo-png-download-hunters-mark.png'
+import img from './png-clipart-bloodborne-the-old-hunters-t-shirt-dark-souls-iii-tattoo-playstation-4-t-shirt-hand-playstation-4.png';
+import img1 from './snapedit_1728183909852.png';
+import img2 from './Remove-bg.ai_1728213878151.png';
 function App() {
   return (
     <div>
+      {/*navbar*/}
       <nav className="navbar navbar-expand-lg custom-navbar fixed-top">
         <ul className="nav navbar-nav d-flex flex-row flex-item w-100 " >
           {/*Home Dropdown*/}
@@ -89,28 +92,38 @@ function App() {
           </li>
         </ul>
       </nav>
+        <a href="#"><img src={img2} className="logosize"></img></a>
         <div className="box">
           <h1 className="">
             <a className="headno-underline font head" href="# ">Lore | Bloodborne</a>
             <hr className="headline"></hr>
             <hr className="headline2"></hr>
           </h1>
-      <p className="title atextcolor head-margin ">Lore of Bloodborne as interpreted by the community. This page houses facts and interpretations relating to the game, but you may also visit the newly launched<br></br> Bloodborne Lore Forums. You can also find pre-release information from trailers and interviews from before the game was launched.<br></br></p>
-      <p className="title atextcolor headnote">
+            <p className="title atextcolor head-margin ">Lore of Bloodborne as interpreted by the community. This page houses facts and interpretations relating to the game, but you may also visit the newly launched<br></br> Bloodborne Lore Forums. You can also find pre-release information from trailers and interviews from before the game was launched.<br></br></p>
+            <p className="title atextcolor headnote">
             <li>See <a href="#" className="no-underline">Lore Notes</a> for transcriptions of in-game notes scattered across its areas.<br></br></li>
             <li>See <a href="#" className="no-underline">Lore glossary</a> for a recopilation of all the relevant in-game facts associated to each lore concept.<br></br></li> 
             <li>See <a href="#" className="no-underline">Theoretical</a> - Player thoughts and research concerning the Bloodborne lore.<br></br></li>
             <li>Warning: Massive spoilers ahead, don't keep reading if you want to deduce things by yourself or haven't beaten the game yet.<br></br></li>
             <li>Everything that is speculation will be tagged under theory or written with words that express uncertainty.</li></p>
-        <h2 className="head">
+        <h2 className="head scroll1" id="concepts">
           <div className="margin">
-          <hr class="line"></hr>
+          <hr class="line"></hr><img src={img1} className="imgheadsize" ></img>
             I. MAIN STORY CONCEPTS
           <hr class="line"></hr>
           </div>
         </h2>
+        {/*info box*/}
+          <div className="inforbox">
+            <h2 className="font text-white">
+              Lore Index
+            </h2>
+            <h4><a className="font no-underline" href="#concepts">1.Story Concepts</a></h4>
+            <h4><a className="font no-underline">2.Notable Hunters and NPCs</a></h4>
+            <h4><a className="font no-underline">3.Sencondary Characters</a></h4>
+          </div>
           <div>
-            <h3 className="littlehead">
+            <h3 className="littlehead firstp">
             The Hunters and The Hunt
               <p className="psize atextcolor tmargin">
                The hunters are a group of warriors who are dedicated to keeping their regions safe by hunting down beasts - or anything other than beasts if need be - that pose a threat. Hunters are agile fighters armed with a trick weapon, a transforming melee weapon in the right hand, and a firearm in the left. They do not employ shields, but rather take advantage of their mobility in order to avoid attacks. Hunters exist throughout the world and are not exclusive to Yharnam, since a number of characters such as the protagonist and Eileen come from the outside world and are yet still recognized as hunters. However, it is believed that the Hunters started out as a branch of the Healing Church very much like The Choir. This would mean that, at least in Yharnam, Hunters were recruited by either Gehrman or the Church itself. 

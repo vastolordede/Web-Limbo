@@ -45,10 +45,18 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
+.inforbox {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 60px;
+    float: right;
+}
 .box{
     position: relative;
-    margin: 60px;
-    margin-top: 120px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    margin-top: -50px;
     height: auto;
     background:rgba(0, 0, 0, 0.8);
 }
@@ -67,6 +75,12 @@ body{
     max-height: 60px;
     position: relative;
 }
+.logosize{
+    max-width: 300px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 40px;
+}
 .atextcolor{
     color: #B4B2B0;
 }
@@ -74,6 +88,11 @@ body{
     width: 25px;
     height: auto;
     margin-right: 13px;
+}
+.imgheadsize{
+    width: 50px;
+    height: auto;
+    float: left;
 }
 .navbar{
     font-size: 15.2px;
@@ -83,6 +102,7 @@ body{
 }
 .navcontentmargin{
     margin-left: 30px;
+    max-width: fit-content;
 }
 .dropdown-menu.navbg{
     background-color: #ffffff;
@@ -150,3 +170,11 @@ body{
 }
 li::marker{
 }
+.firstp{
+    margin-top: 60px;
+}
+.scroll1{
+    scroll-margin-top: -30px;
+    scroll-behavior: smooth;
+}
+    
