@@ -106,7 +106,7 @@ function App() {
             <li>See <a href="#" className="no-underline">Theoretical</a> - Player thoughts and research concerning the Bloodborne lore.<br></br></li>
             <li>Warning: Massive spoilers ahead, don't keep reading if you want to deduce things by yourself or haven't beaten the game yet.<br></br></li>
             <li>Everything that is speculation will be tagged under theory or written with words that express uncertainty.</li></p>
-        <h2 className="head scroll1" id="concepts">
+        <h2 className="head scroll1" id="concepts" >
           <div className="margin">
           <hr class="line"></hr><img src={img1} className="imgheadsize" ></img>
             I. MAIN STORY CONCEPTS
@@ -119,9 +119,10 @@ function App() {
               Lore Index
             </h2>
             <h4><a className="font no-underline" href="#concepts">1.Story Concepts</a></h4>
-            <h4><a className="font no-underline">2.Notable Hunters and NPCs</a></h4>
-            <h4><a className="font no-underline">3.Sencondary Characters</a></h4>
+            <h4><a className="font no-underline" href="#noablehunters">2.Notable Hunters and NPCs</a></h4>
+            <h4><a className="font no-underline" href="#SecondaryCharacters">3.Sencondary Characters</a></h4>
           </div>
+          {/*Content 1*/}
           <div>
             <h3 className="littlehead firstp">
             The Hunters and The Hunt
@@ -211,7 +212,84 @@ function App() {
               Pthumeria was an ancient civilization ruled by Queen Yharnam. It was populated by Pthumerians, an ancient race of people who truly understood the Truth of the Great Ones and gained supernatural powers as a result. Queen Yharnam was a medium for the Great Ones, as cited by an item (saying the Choir discovered a medium, though she’s the only likely candidate). Eventually the Pthumerians retreated into a deep labyrinth, with their holy chalices being the only remnants of their ancient rituals to break the seals. Some chalices (such as the ailing Loran chalice) led to other lands, and the Isz Chalice was in particular used in holy communion with the Great Ones.
               </p>
             </h3>
+            {/*NOTABLE HUNTERS AND NPCS*/}
+            <h2 className="head scroll1" id="noablehunters" >
+          <div className="margin">
+          <hr class="line"></hr><img src={img1} className="imgheadsize" ></img>
+              II. NOTABLE HUNTERS AND NPCS
+          <hr class="line"></hr>
           </div>
+          </h2> 
+            <div>
+            <h3 className="littlehead firstp">
+            Gehrman, the First Hunter
+              <p className="psize atextcolor tmargin">In time, a man named Gehrman would rise to the task of the Beast problem. Gehrman redesigned common clothing to provide better defense against the beasts' claws, and also created the Burial Blade, a unique weapon capable of transforming during battle to cater to Gehrman's need for a short or long weapon. Gehrman’s work was so admired as well as effective that his Burial Blade would become the basis for all hunter armament technology, later known as trick weapons. Gehrman was also a formidable fighter whose school of thought would become mandatory in any hunter's fighting style when facing the horrors of the hunt.
+                While it doesn’t say specifically, there is a heavy implication that Gehrman was hired by the Healing Church to work in the Workshop due to his role as an inventor, since his work place is directly beneath the Healing Church’s Oedon Chapel. Gehrman worked in the Workshop presumably until his death. He took many apprentices, who all did his duty in his honor, and may well have died long ago. The bone in the workshop graveyard was one of such apprentices, who had mastered the art of Quickening, allowing him to move at incredible speeds. Periodically, The Doll can be seen mourning at the same grave from which the bone is retrieved, leading some to speculate that this hunter was incredibly powerful and was one of the few to get close to defeating the Moon Presence making it possible that he was a viable replacement surrogate to take Gehrman's place in the Dream.
+                The description of the Umbilical cord found in the Old Abandoned Workshop states "Every Great One loses its child, and then yearns for a surrogate. The Third Umbilical Cord precipitated the encounter with the pale moon, which beckoned the hunters and conceived the hunter's dream." According to this umbilical cord we can infer that Gehrman became the substitute child of the Moon Presence or that Gehrman was the one who summoned the Moon Presence itself and was then chosen (There are a few ways this could go depending on who summoned the Moon Presence. There just hasn't been enough lore discovered to fit any one claim of the creation of the Hunter's Dream.) For what purpose does the surrogate child exist? Could this mean that they possess some emotions or is it for a entirely different reason? We may never know for sure.
+                Secret Dialogue of Gehrman that strongly suggests that he is trapped in the Hunter's Dream for far too long and wants someone to free him. It also seems that he knows Master Willem and Laurence during times of Byrgenwerth from this dialogue.</p>
+            </h3>
+            <h3 className="littlehead">
+            Ludwig, First Hunter of the Church
+              <p className="psize atextcolor tmargin">Ludwig was acknowledged as the first hunter of the Healing Church. Ludwig fought with heavy weapons that were meant to mortally wound his enemies, an irony since the Healing Church is normally dedicated to saving lives. Nonetheless, this became a tradition among Church hunters, who employed heavy weapons just like Ludwig did. Moreover, Ludwig is also likely the first to recruit normal Yharnamites to join the hunter's rank, since the beasts are many. Eventually he fell victim to the Old Blood and changed into a monstrous beast wielding the Holy Moonlight Blade.</p>
+            </h3>
+            <h3 className="littlehead">
+            Eileen the Crow
+              <p className="psize atextcolor tmargin">In time, hunters needed to receive blood ministrations in order to compete with the beasts they hunted, as a kind of all-or-nothing gamble. However, many hunters would fail, and become obsessed with, infected by, and eventually overcome by the blood, becoming beasts themselves. For this, the Hunter of Hunters did their duty, ending the lives of these madmen with grace and dignity. Eileen’s set says that they were buried in a foreign and respectful way, rather than the vile way of Yharnam (which I assume is cremation on a pyre or cross), and references a sky burial (which is a practice in which a body is dismembered and left out for the carrion birds, such as a crow, to eat). However, there is one interesting note: it says that the hope for the sky burial is that the hunters would find rest and solace in “a hunter’s dream.” This leads to some fairly open-ended speculation on what "The Dream" actually is or means.</p>
+            </h3>
+            <h3 className="littlehead">
+            The Player
+              <p className="psize atextcolor tmargin">The Player is a foreigner who has journeyed to Yharnam in search of curing an unspecified disease with Yharnam's famous Blood Ministration. Seeking 'Paleblood' the protagonist signs a contract with a man in a wheelchair (Who some speculate is Caryll the rune-smith) vowing to serve the city of Yharnam as a Hunter.</p>
+            </h3>
+            <h3 className="littlehead">
+            Djura, retired hunter
+              <p className="psize atextcolor tmargin">A member of the Powdered Kegs, Djura renounced his title of hunter when he failed to protect Old Yharnam. Stubborn as always, Djura remained in Old Yharnam as he watched the inhabitants of his town slowly decayed into beasts, but insists on protecting them nonetheless. Since the Powdered Kegs are rejected from the Workshop, Djura does not have much mercy or respect for the workshop conformists, and wouldn't mind shedding the blood of a few trespassers who will raise their blade against what used to be his friends.</p>
+            </h3>
+            <h3 className="littlehead">
+            Alfred
+              <p className="psize atextcolor tmargin">Alfred is a hunter as well as an executioner, he has sworn to slay beasts as well as the Vilebloods of Cainhurst Castle sworn to Queen Annalise. Although the executioners are better known for their resolution, their ferocious penchant for killing, and their "merciless" nature, Alfred is surprisingly jolly and asks to befriend the player and to be comrades in arms against the scourge of the Vilebloods and the beasts alike.</p>
+            </h3>
+            <h3 className="littlehead">
+            Father Gascoigne and Henryk
+              <p className="psize atextcolor tmargin">Father Gascoigne came from a foreign land where he was referred to as "Father" leading to the belief that he was a cleric or a priest in his former home. No rank or title in Yharnam is referred to as Father, which implies he obtained this title before coming to Yharnam. Gascoigne had been living with the blood sickness for quite some time, which may have had something to do with his relocation to Yharnam and the joining of the Healing Church. It is unclear weather he had the sickness before coming to Yharnam, but he had the sickness long before he met the Player. As a powerful hunter, he is able to contain his beastly form even though he is infected. He seems to have set aside his affiliation with the Healing Church to become a hunter, seen by his Hunter Axe and "Pistol"; on the other hand, he seems to be eliminating everyone who tries to enter the Tomb of Oedon, and is in possession of the key to the Tomb's gate that leads to Cathedral Ward, so it might be that the Church has employed him to protect their headquarters from the scourge. He is (or once was) a black cleric, which is apparent by his garb. Church hunters who wear black garb are notorious for targeting "potential victims, before signs of sickness manifest themselves". This can explain his paranoid behaviour towards you before the battle, saying "you'll be one of them, sooner or later". His mania may have been a result of his progressive transformation taking a toll on his mind, or of him succumbing to the bloodlust of the hunt.
+            After helping the Player defeat the Cleric Beast, it seems Father Gascoigne made his way to the Tomb of Oedon. It seems either his condition started to worsen and dramatically reduce his sanity, or he had a change of heart. Either way, at that point he saw all people infected by the plague as beasts his is more closely related to the curse having a toll on his mind due to the fact that the townsfolk view you in the same manner. Though once his mind became warped like this his wife Viola would always play the music box to somehow restore his sanity and humanity. Notice this time you find her you do not find the music box near. Thus, Gascoigne attacked his own wife killing her and in turn allowing the curse to fully overtake his body. Once you've obtained the music box Gascoigne is far too gone to return back to himself. Though the box still has effects on him, it cannot impede the ailment any longer, this is why he transforms into a lycan-like beast once he is near death or much faster if exposed to the music box's now haunting melody.
+            Henryk is an old hunter, partner of Gascoigne. The duo fought together for a long time, but very little is known about him otherwise unfortunately making him a basic cliffnote in the history of Yharnam, though his garb mentions that something happened as a result of Henryk's partnership with Gascoigne leading Henryk to have a "tragically long life."</p>
+            </h3>
+            <h3 className="littlehead">
+            Willem, Head Scholar of Byrgenwerth
+              <p className="psize atextcolor tmargin">Whereas it is unknown what exactly did master Willem uncover, one thing is clear: he is a crucial figure whose wisdom heavily influenced the teachings of the Healing Church, and everyone is grateful for his contributions. Even members of the Choir are required to pay tribute to him. His teachings eventually branched out to organizations such as The Choir and The School of Mensis which continued his research and many of their experiments made progress. Master Willem's most important teaching is the adage "Fear the Old Blood". He encourages all the scholars of his college to seek enlightenment and ascension through other methods except using the Old Blood. We know that Laurence used Old Blood because he thinks that it is key for humanity's ascension. Which is why Master Willem felt betrayed, since Laurence didn't follow the "Fear the Old Blood" adage. So Laurence found the Healing Church and made blood ministration the cornerstone of the church.
+                Master Willem is acquainted with Gehrman, and likely lived in the same age as him. How exactly does he manage to live this long remains a mystery.
+                The Umbilical Cord Third that is found on the corpse of the impostor Iosefka reads as such "Provost Willem sought the Cord in order to elevate his being and thoughts to those of a Great One, by lining his brain with eyes. The only choice, he knew, if man were to ever match Their greatness." So it is possible he communed with a Great One just like the Pthumerians of old and was able to obtain his long life through the secrets of whichever Great One he spoke with (Rom?)</p>
+            </h3>
+            <h3 className="littlehead">
+            Caryll, The Runesmith
+              <p className="psize atextcolor tmargin">Caryll was a member of the Workshop that was able to hear the voice of Oedon, and managed to inscribe his words into runes, which (according to item descriptions) would have made Willem proud because it was power without using blood. While the runes themselves are a singular thing, their descriptions are incredibly varied and more so tend to tinge the lore here and there with extra information.</p>
+            </h3>
+            </div>
+            {/*Secondary character*/}
+            <h2 className="head scroll1" id="SecondaryCharacters" >
+          <div className="margin">
+          <hr class="line"></hr><img src={img1} className="imgheadsize" ></img>
+              III. SECONDARY CHARACTERS
+          <hr class="line"></hr>
+          </div>
+          </h2> 
+            <div>
+            <h3 className="littlehead firstp">
+            Tomb Prospectors
+              <p className="psize atextcolor tmargin">The tomb prospectors are adventurers sent by the healing church to explore the depth of the Old Labyrinth. They believe the vast labyrinth contains invaluable information of the Truth of the Old Ones. Since Ebrietas came from the depth of the Old Labyrinth, the Choir became fascinated with dungeon exploration, directly leading to these brave souls being sent to where no man has set foot since the fall of the Pthumerians. Whereas many of them returned victorious, bringing along precious artifacts, equally many were lost, perished or gone mad due to the treachery of the deep. The failures bodies are littered throughout the depths of the Chalice Dungeons like a trail of crumbs like warning signs of death of all those who tread carelessly in the depths.</p>
+            </h3>
+            <h3 className="littlehead">
+            Black-Garbed Hunters
+              <p className="psize atextcolor tmargin">Though amateur doctors, the black-garbed hunters were an extermination force and a prevention, not a cure. Their goal was to kill those who were infected, turned, and those who may be infected. They wielded large weapons and powerful firearms due to the fact they were expecting to fight very large and monstrous beasts. Soon after the Black Church Hunters were formed "their black attire became synonymous with fear, and that peculiar Yharnam madness." Their robes have their philosophy stated as follows "...When a cancer is discovered. one must pinpoint its location, reach in, and wrench it from the host's bosom."</p>
+            </h3>
+            <h3 className="littlehead">
+            White-Garbed Doctors
+              <p className="psize atextcolor tmargin">The White Church Doctors performed the bidding of the Choir, applying blood ministrations with the intent of experimentation, rather than healing. Many of the twisted things the church produced were a result of this experimentation such as the great giants (with axes and wrecking balls) as well as the grave keepers near them are products of these experiments and are legendary beasts that would join the church on the hunt. The White Church set gives great insight into their particular thoughts on the experiments
+            "They (The Choir Doctors) believe that medicine is not a means of treatment but rather a method for research. and that some knowledge can only be obtained by exposing oneself to sickness."
+            </p>
+            </h3>
+            </div>
+            </div>
         </div>
       </div>       
   );

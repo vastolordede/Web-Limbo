@@ -175,6 +175,7 @@ li::marker{
 }
 .scroll1{
     scroll-margin-top: -30px;
-    scroll-behavior: smooth;
+    scroll-behavior: auto;
 }
+
     
