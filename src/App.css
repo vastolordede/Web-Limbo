@@ -13,6 +13,10 @@
     margin-left: 25px;
     text-align: center;
 }
+.head1font{
+    
+    margin-top: -20px;
+}
 .littlehead{
     font-size: 24px;
     font-family: 'custom-font';
@@ -55,7 +59,7 @@ body{
     position: relative;
     margin-left: 60px;
     margin-right: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     margin-top: -50px;
     height: auto;
     background:rgba(0, 0, 0, 0.8);
@@ -115,6 +119,9 @@ body{
 .head-margin{
     margin-top: 20px;
 }
+.headmarginbottom{
+    margin-bottom: 30px;
+}
 .headline{
     border: none; 
     height: 3px;
@@ -168,14 +175,42 @@ body{
     text-decoration: underline;
     color:#AB966F;
 }
-li::marker{
-}
+
 .firstp{
     margin-top: 60px;
 }
 .scroll1{
     scroll-margin-top: -30px;
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
 }
-
+.footer-item{
+    margin: 12px;
+}
+.footerli{
+    list-style-type: none;
     
+}
+.headborder{
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    border-top: 2px solid #AB966F;
+    border-left: 2px solid #AB966F;
+    border-right: 2px solid #AB966F;
+}
+.footborder{
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    border-bottom: 2px solid #AB966F;
+    border-left: 2px solid #AB966F;
+    border-right: 2px solid #AB966F;
+}
+.bgfooter{
+    background:rgba(0, 0, 0, 0.8);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.ulfoot{
+    padding: 0;
+}

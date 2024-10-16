@@ -94,7 +94,8 @@ function App() {
       </nav>
         <a href="#"><img src={img2} className="logosize"></img></a>
         <div className="box">
-          <h1 className="">
+          <div className="headborder"></div><br></br>
+          <h1 className="head1font">
             <a className="headno-underline font head" href="# ">Lore | Bloodborne</a>
             <hr className="headline"></hr>
             <hr className="headline2"></hr>
@@ -118,11 +119,11 @@ function App() {
             <h2 className="font text-white">
               Lore Index
             </h2>
-            <h4><a className="font no-underline" href="#concepts">1.Story Concepts</a></h4>
+            <h4><a className="font no-underline">1.Story Concepts</a></h4>
             <h4><a className="font no-underline" href="#noablehunters">2.Notable Hunters and NPCs</a></h4>
             <h4><a className="font no-underline" href="#SecondaryCharacters">3.Sencondary Characters</a></h4>
           </div>
-          {/*Content 1*/}
+          {/*Main Content*/}
           <div>
             <h3 className="littlehead firstp">
             The Hunters and The Hunt
@@ -267,7 +268,7 @@ function App() {
             </div>
             {/*Secondary character*/}
             <h2 className="head scroll1" id="SecondaryCharacters" >
-          <div className="margin">
+          <div className="margin ">
           <hr class="line"></hr><img src={img1} className="imgheadsize" ></img>
               III. SECONDARY CHARACTERS
           <hr class="line"></hr>
@@ -282,7 +283,7 @@ function App() {
             Black-Garbed Hunters
               <p className="psize atextcolor tmargin">Though amateur doctors, the black-garbed hunters were an extermination force and a prevention, not a cure. Their goal was to kill those who were infected, turned, and those who may be infected. They wielded large weapons and powerful firearms due to the fact they were expecting to fight very large and monstrous beasts. Soon after the Black Church Hunters were formed "their black attire became synonymous with fear, and that peculiar Yharnam madness." Their robes have their philosophy stated as follows "...When a cancer is discovered. one must pinpoint its location, reach in, and wrench it from the host's bosom."</p>
             </h3>
-            <h3 className="littlehead">
+            <h3 className="littlehead  ">
             White-Garbed Doctors
               <p className="psize atextcolor tmargin">The White Church Doctors performed the bidding of the Choir, applying blood ministrations with the intent of experimentation, rather than healing. Many of the twisted things the church produced were a result of this experimentation such as the great giants (with axes and wrecking balls) as well as the grave keepers near them are products of these experiments and are legendary beasts that would join the church on the hunt. The White Church set gives great insight into their particular thoughts on the experiments
             "They (The Choir Doctors) believe that medicine is not a means of treatment but rather a method for research. and that some knowledge can only be obtained by exposing oneself to sickness."
@@ -290,7 +291,22 @@ function App() {
             </h3>
             </div>
             </div>
+         {/*Footer*/}   
+        <div className="footborder"></div><br></br>
         </div>
+        <footer>
+        <div className="bgfooter">
+         <ul className="d-flex flex-row flex-item w-100 justify-content-center align-items-center ulfoot">
+          <li className="footer-item footerli"><a className="no-underline footer-item " href="#">Wiki Home</a></li>
+          <li className="footer-item footerli"><a className="no-underline footer-item " href="#">Gaming Wikis</a></li>
+          <li className="footer-item footerli"><a className="no-underline footer-item " href="#">Gaming Forums</a></li>
+          <li className="footer-item footerli"><a className="no-underline footer-item " href="#">Privacy Policy</a></li>
+          <li className="footer-item footerli"><a className="no-underline footer-item " href="#">Terms of Use</a></li>
+          <li className="footer-item footerli"><a className="no-underline footer-item " href="#">Copyright Policy</a></li>
+          <li className="footer-item footerli"><a className="no-underline footer-item " href="#">Advertise on</a></li>
+         </ul>
+        </div>
+        </footer>
       </div>       
   );
 }
