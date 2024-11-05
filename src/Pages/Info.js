@@ -24,6 +24,9 @@ function Info() {
                     to the most common questions that we receive. Due to
                     the amount of inquiries, we cannot guarantee that we
                     will reply.</p>
+                    <div className="back">
+                        <Link to="/"><button className="Buy-to-check-out-2">Back</button></Link>
+                    </div>
             </div>
         </div>
     );

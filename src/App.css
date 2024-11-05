@@ -26,11 +26,29 @@
 .nav-item{
     color: #515253;
     text-decoration: none;
+    position: relative; /* Cần thiết để pseudo-element hoạt động */
+    text-decoration: none;
 }
 .nav-item:hover{
     color: #cbcbcb;
     text-decoration: none;
+    position: relative; /* Cần thiết để pseudo-element hoạt động */
+    text-decoration: none;
 }
+.nav-item::after {
+    content: "";
+    position: absolute;
+    bottom: -5px; /* Đặt đường gạch cách chữ một chút */
+    left: 0;
+    width: 0;
+    height: 2.5px; /* Chiều cao của đường gạch */
+    background-color: #cbcbcb; /* Màu của đường gạch */
+    transition: width 0.2s ease-in-out; /* Thêm hiệu ứng chuyển động cho đường gạch */
+  }
+  
+  .nav-item:hover::after {
+    width: 100%; /* Khi hover, đường gạch sẽ mở rộng từ trái sang phải, bằng chiều dài của chữ */
+  }
 .brand{
     font-size: 30px;
     padding-left: 100px;
@@ -149,6 +167,13 @@
     animation-timeline: view();
     animation-range: entry 0% cover 40%; 
 }
+.text-next{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+}
 .Buy-button{
     width: 180px;
     height: 75px;
@@ -185,8 +210,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
     width: 550px;
-    color: #cbcbcb;
+    color: #eaeaea;
+}
+.scroll-1{
+    scroll-margin-top: 195px;
+}
+.scroll-2{
+    scroll-margin-top: 195px;
+}
+.scroll-3{
+    scroll-margin-top: 195px;
 }
 .Icon{
     width: 35px;
@@ -280,8 +315,39 @@
     margin-top: 0px;
     padding: 70px 40px 70px 40px;
 }
+.Contact-box-privacy{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: auto;
+    background-color: #0B1012;
+    color: #cbcbcb;
+    opacity: 0.7;
+    gap: 0px;
+    margin-top: 0px;
+    padding: 70px 40px 70px 40px;
+}
+.Contact-box-privacy h2{
+    margin-bottom: 20px;
+}
 .Contact-box h3{
     color: #eaeaea;
+}
+.no-underline{
+    color: #515253;
+    text-decoration: none;
+}
+.no-underline:hover{
+    color: #cbcbcb;
+    text-decoration: none;
+}
+.no-underline-1{
+    color: #cbcbcb;
+    text-decoration: none;
+}
+.no-underline-1:hover{
+    color: #fff;
+    text-decoration: none;
 }
 .Info-Link{
     text-decoration: none;
@@ -435,6 +501,53 @@ background-color: #515253;
     color: transparent;
     animation: RotateLight 2.5s ease-in-out infinite alternate;
 }
+.Buy-to-check-out-1{
+    width: 140px;
+    height: 60px;
+    color:black;
+    background-color: #515253;
+    border: transparent;
+    z-index: 10000;
+    font-weight: bold;
+    font-size: 35px;
+    border-radius: 50px; 
+    background-image:
+    conic-gradient(
+        from var(--rotate) at 58% 32%,
+            #0B1012 30%,
+            #f8f8f884,
+            #0B1012 70%
+        );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: RotateLight 1.5s ease-in-out infinite alternate;
+}
+.Buy-to-check-out-2{
+    width: 140px;
+    height: 60px;
+    color:black;
+    background-color: #515253;
+    border:1px solid #515253;
+    z-index: 10000;
+    font-weight: bold;
+    border-radius: 50px; 
+    background-image:
+    conic-gradient(
+        from var(--rotate) at 65% 15%,
+            #0B1012 40%,
+            #f8f8f884,
+            #0B1012 60%
+        );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: RotateLight 1.5s ease-in-out infinite alternate;
+}
+.back{
+    display: flex;
+    justify-content: center;
+}
 .form-input{
     padding: 20px;
     border: 1px solid #fff;
@@ -524,4 +637,12 @@ background-color: #515253;
     gap: 50px;   
     bottom: 20px;
     left: 1200px;
+}
+.Footer-icon-Link{
+    color: #515253;
+    text-decoration: none;
+}
+.Footer-icon-Link:hover{
+    color: #cbcbcb;
+    text-decoration: none;
 }

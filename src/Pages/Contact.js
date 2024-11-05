@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Contact() {
     return (
@@ -24,6 +25,9 @@ function Contact() {
                     detached from one another. You are welcome to add
                     your voice-over commentary. You can find additional
                     supporting and useful materials at playdead.com/press.</p>
+                    <div className="back">
+                        <Link to="/"><button className="Buy-to-check-out-2">Back</button></Link>
+                    </div>
             </div>
         </div>
     );

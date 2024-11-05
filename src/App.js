@@ -5,15 +5,17 @@ import Navbar from "./Inc/Navbar"
 import Footer from "./Inc/Footer"
 import Game from "./Pages/Game"
 import Buy from "./Pages/Buy"
-import Slider from "./Inc/Slider"
 import Checkout from "./Pages/Checkout";
 import Information from "./Pages/Information";
 import Contact from "./Pages/Contact"
 import Info from "./Pages/Info"
+import Privacy from "./Pages/Privacy"
+import ScrollToTop from "./Inc/ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={< Home />} />
@@ -23,6 +25,7 @@ function App() {
         <Route path="/Checkout" element={< Checkout />} />
         <Route path="/Contact" element={< Contact />} />
         <Route path="/Info" element={< Info />} />
+        <Route path="/Privacy" element={< Privacy />} />
       </Routes>
       <Footer />
     </Router>
